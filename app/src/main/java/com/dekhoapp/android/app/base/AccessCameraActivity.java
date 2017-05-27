@@ -113,7 +113,6 @@ public class AccessCameraActivity extends AppCompatActivity {
 
                 Uri selectedVideoUri = data.getData();
                 Log.d(TAG, "data: " + selectedVideoUri.toString());
-                gi
                 //Intent viewCreatedVideo = new Intent(this, ViewCreatedVideo.class);
                 //viewCreatedVideo.putExtra("PUT_EXTRA",selectedVideoUri.toString());
                 //startActivity(viewCreatedVideo);
